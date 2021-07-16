@@ -33,8 +33,11 @@ box-sizing: border-box;
     padding:20px;
 }
 
+
+
 .menu{
     
+    position: relative;
     background-color:beige;
     text-align: justify;
     height: 900px;
