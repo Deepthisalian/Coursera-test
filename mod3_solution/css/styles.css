@@ -1,5 +1,11 @@
+*{
+
+box-sizing: border-box;
+
+}
 .container-fluid{
-    margin:10px;
+    position: relative;
+    /*margin:10px;*/
 }   
 
 .navbar-brand{
@@ -13,17 +19,30 @@
 }
 
 #nav-list{
-    background-color:rgb(243, 184, 184);
+    background-color:yellow;
     
+}
+.navbar-toggler-icon{
+    background-color: black;
+}
+
+
+.row{
+   
+    margin:10px;
+    padding:20px;
 }
 
 .menu{
     
     background-color:beige;
     text-align: justify;
-    height: 600px;
-    margin:10px;
-    padding:20px;
+    height: 900px;
+    margin-bottom: 10px;
+
+    
+   
+    
     
 
 }
